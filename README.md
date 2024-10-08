@@ -1,43 +1,10 @@
-NXMP
+RipJKAnime 2 NX
 ======
 
 ![Banner](docs/banner.jpg)
-NXMP is a video player for Nintendo Switch based on [MPV](https://mpv.io/).
+RipJKAnime 2 NX es una aplicación para ver anime online desde JKAnime.net basado en NXMP, reproductor multimedia creado por proconsule.
 NXMP support most popular video format , it support HTTP,FTP,SFTP,Samba,NFS streaming and it also support Enigma2 decoders.
 Starting from 0.7.0 Version it features HW Decoding for H264,HEVC,VP8,VP9,MPEG2 up to 4K HDR@30fps
-
-NXMP is coded by proconsule and darkxex
-
-Installation 
-----
-Edit config.ini
-```
-[Main]
-startpath=/switch/nxmp
-
-[Network]
-
-[Enigma2]
-```
-
-Network have syntax (you can add as many source as you like)
-
-```
-[Network]
-source=TESTFtp|ftp://user:pass@192.168.1.10:21/path/
-source=TestHTTP|http://192.168.1.10/path/
-source=TestSFTp|sftp://192.168.1.10/path/ (without path it default to home)
-source=TestSamba|smb://user:pass@192.168.1.10/share/ (share is a share name not a path)
-source=TestNFS|nfs://192.168.1.10/export/
-```
-
-Enigma2 have syntax
-```
-[Enigma2]
-e2address=http://192.168.1.10/
-```
-
-Copy "nxmp" folder to switch sdcard (/switch/nxmp)
 
 Usage
 -----
